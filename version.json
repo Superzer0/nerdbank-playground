@@ -7,6 +7,8 @@
   ],
   "release": {
     "branchName": "release/{version}",
-    "tagName" : "{version}"
+    "tagName": "{version}",
+    "firstUnstableTag": "alpha",
+    "versionIncrement": "minor"
   }
 }
