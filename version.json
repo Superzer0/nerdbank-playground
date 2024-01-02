@@ -4,5 +4,10 @@
   "publicReleaseRefSpec": [
     "^refs/heads/main$",
     "^refs/heads/release/.*$"
-  ]
+  ],
+  "release": {
+    "branchName" : "release/{version}",
+    "versionIncrement" : "minor",
+    "firstUnstableTag" : "alpha"
+  }
 }
