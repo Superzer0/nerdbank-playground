@@ -6,6 +6,7 @@
     "^refs/heads/release/.*$"
   ],
   "release": {
-    "branchName": "release/{version}"
+    "branchName": "release/{version}",
+    "tagName" : "{version}"
   }
 }
